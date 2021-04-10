@@ -1,0 +1,462 @@
+
+body
+{
+    scroll-behavior: smooth;
+}
+
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.name
+{
+    /* border: 2px solid black; */
+    background: url("rsc/clouds.png") repeat-x top center;
+    background-size: contain;
+    background-repeat: repeat;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.nav_bar > ul
+{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.nav_bar > ul > li
+{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px;
+    border-bottom-style: none;
+}
+
+.nav_bar > ul > li:hover
+{
+    border-bottom-style: solid;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.plane
+{
+    width: 250px;
+    height: 250px;
+}
+
+
+#myName
+{
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: 'Sacramento',cursive;
+    color: white;
+}
+
+#iAm
+{
+    font-size: 50px;
+    margin-top: 0;
+    color: white;
+}
+
+.contactMe
+{
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 999px;
+    padding: 20px;
+}
+
+.about
+{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+
+.me
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 75vw;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px dashed lightblue;
+    
+
+}
+
+.images
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social_links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.social_links > img
+{
+    height: 75px;
+    width: 75px;
+}
+
+#my_pic
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 999px;
+    margin-top: 70px;
+}
+
+.intro
+{
+    padding: 40px;
+}
+
+.intro > h1
+{
+    display: block;
+    margin: auto;
+}
+
+#intro_head
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+}
+
+#intro_body
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    border: 1 px solid black;
+}
+
+.blocks
+{
+    margin: 80px;
+    padding: 10px;
+}
+
+.figure
+{
+    text-align: center;
+    color: rgb(14, 127, 168);
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.figure_about
+{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(58, 58, 58) ;
+}
+
+.skills
+{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+
+.skill
+{
+    width: 90%;
+    border-right: 2px dashed lightblue;
+    margin: 10px;
+}
+
+.skill > p
+{
+    font-size: 35px;
+    text-align: center;
+}
+
+.skill_images
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.skill_heading
+{
+    color: #3a3a3a;
+    font-size: 40px;
+}
+
+#resume_pdf
+{
+    border: 2px solid rgb(7, 106, 139);
+    border-top: 5px solid rgb(7, 106, 139);
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.resume
+{
+    margin: 10px;
+}
+
+.resume > p
+{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/* Project Slideshow Designing from here */
+
+.projects
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(61, 61, 61);
+    height: 80vh;
+}
+
+.hide
+{
+    display: none;
+}
+
+#project_head
+{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.project
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    margin: auto;
+    margin-top: 0;
+    align-items: center;
+    transition: 2s;
+}
+
+.project > img
+{
+    width: 20vw;
+    height: 35vh;
+    margin: auto;
+    margin-bottom: 0;
+    border-radius: 50px;
+
+}
+
+.project_name
+{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+.project_desc
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.project_link
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 999px;
+    padding: 20px;
+}
+
+/* Dots and animation and transitions */
+
+
+.dot
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #C23B3B;
+    margin: 6px;
+    border-radius: 50%;
+    cursor:pointer;
+    transition: border 0.6s ease;
+    
+}
+
+.active {
+   border: 2px solid white;
+  }
+
+  .dot:hover
+  {
+      background: lightcoral;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* Transition done here */
+
+.contact_me
+{
+    background-color: rgb(241, 81, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_me > h1
+{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.contact_me > p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+
+.email
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 40vh;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    margin-bottom: 70px;
+}
+
+#mail_body
+{
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+}
+
+input
+{
+    font-size: 15px;
+    padding: 5px;
+    
+}
+
+#send
+{
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 999px;
+}
+
+.ip_heading
+{
+    color: white;
+    font-size: 25px;
+}
+
+.footer
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin-bottom: 0;
+}
+
+#footer_name
+{
+    font-family: 'Sacramento',cursive;
+    font-size: 50px;
+    color: blue ;
+    margin: 0;
+}
+
+#footer_msg
+{
+    font-size: 20px;
+    margin: 0;
+}
+
+.hide
+{
+    display: none;
+}
